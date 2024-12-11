@@ -8,6 +8,9 @@ lavalink:
       youtube: true
       bandcamp: true
       soundcloud: true
+      spotify: true
+      deezer: true
+      apple: true
       twitch: true
       vimeo: true
       http: true
