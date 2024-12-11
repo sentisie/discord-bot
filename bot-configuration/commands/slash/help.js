@@ -118,11 +118,11 @@ const command = new SlashCommand()
       helpEmbed.addFields({
         name: "Credits",
         value:
-          `Discord Music Bot Version: v${
+          `Resonix Version: v${
             require("../../package.json").version
           }; Build: ${gitHash}` +
           "\n" +
-          `[✨ Support Server](${client.config.supportServer}) | [Issues](${client.config.Issues}) | [Source](https://github.com/SudhanPlayz/Discord-MusicBot/tree/v5) | [Invite Me](https://discord.com/oauth2/authorize?client_id=${client.config.clientId}&permissions=${client.config.permissions}&scope=bot%20applications.commands)`,
+          `[[Source](https://github.com/sentisie/discord-bot.git)`,
       });
       await iter.update({
         embeds: [helpEmbed],
