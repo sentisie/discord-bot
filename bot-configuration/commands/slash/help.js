@@ -122,7 +122,7 @@ const command = new SlashCommand()
             require("../../package.json").version
           }; Build: ${gitHash}` +
           "\n" +
-          `[[Source](https://github.com/sentisie/discord-bot.git)`,
+          `[[Source](https://github.com/sentisie/discord-bot.git)]`,
       });
       await iter.update({
         embeds: [helpEmbed],

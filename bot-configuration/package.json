@@ -1,6 +1,6 @@
 {
 	"name": "resonix",
-	"version": "5.0.0-beta",
+	"version": "1.0",
 	"description": "sentisie's team",
 	"main": "index.js",
 	"scripts": {
