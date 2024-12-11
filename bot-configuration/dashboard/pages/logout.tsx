@@ -8,7 +8,7 @@ export default function Logout(_props: any) {
 
     return <>
         <Head>
-            <title>Logging Out | Discord Music Bot</title>
+            <title>Logging Out | Resonix</title>
         </Head>
         <p>Redirecting you to logout...</p>
     </>
